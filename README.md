@@ -1,6 +1,6 @@
 # MLChallenge
 
-##First task. Training a cnn model to recognize the traphic lights.
+## First task. Training a cnn model to recognize the traphic lights.
 
 First we import the training and testing data with os library and crop the images based on the imformation from the annotations. We take 20% of the training data and keep it for evalutating our models.
 
@@ -29,12 +29,12 @@ And the learning curves smoothen out a bit.
 
 ![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/d78ba136-ca0d-4825-a7a2-4c590144fdff)
 
-##Adding noise to the model.
+## Adding noise to the model.
 
 The model performance drops by more than 15% when we add noise to the test set, wich is something to be expected. 
 
 
-##Task 2: Pinhole Cameras
+## Task 2: Pinhole Cameras
 
 We first need to calculate where the points fall in the coordinate system placted in the center of our image plane, and are calculated with these two equations:
 
