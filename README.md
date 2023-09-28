@@ -1,5 +1,6 @@
 # MLChallenge
-About the first task. Training a cnn model to recognize the traphic lights.\n
+About the first task. Training a cnn model to recognize the traphic lights.
+
 First we import the training and testing data with os library and crop the images based on the imformation from the annotations. We take 20% of the training data and keep it for evalutating our models.
 Our first model only has two Convolutional Layers followed by two pooling layers, and two dence layers. The features, the learning rate and the bach size are quite randomly choosen and are changed to test diffrent features in the process.
 This model only has 0.63 accuracy and the learning curves suggest that it needs improving, so we try Droping out 50% of our training data every epoch and we can see that the accuracy improoves radicaly and the learning curves show that the model learns more smoothly. 
