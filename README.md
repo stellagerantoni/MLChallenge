@@ -8,7 +8,9 @@ This model only has 0.63 accuracy and the learning curves suggest that it needs 
 After that we just make our model more complex to see how much the accuracy of the testing data impooves, while adjust the features accordingly to keep the learning curves more smooth. 
 The channels (12,32,64,128)(32,64,128,256), and (64,128,256,512) we all tried in various changes of the model and at the end the best performance was with (32,64,128,256) number of channels.
 
-At the end when we got the the model 5 with a really good performance at 90% accurasy but the curves of accuracy and loss suggested that the learning process isnt smooth and that it might be vunrable to diffrent parameters. ![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/114becb4-3947-4755-ae3c-e58785ef48e3)
+At the end when we got the the model 5 with a really good performance at 90% accurasy but the curves of accuracy and loss suggested that the learning process isnt smooth and that it might be vunrable to diffrent parameters.
+
+![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/114becb4-3947-4755-ae3c-e58785ef48e3)
 
 So we try diffrent learning rates, channels and bach sizes to try and smoothen out the curves (without hurting the accuracy of the model on the testing data.)
 
@@ -22,5 +24,7 @@ best bach size: 128
 
 By updating these parameters we get: Classifier trained, with testing accuracy 0.9008792610751826.
 
-And the learning curves smoothen out a bit![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/d78ba136-ca0d-4825-a7a2-4c590144fdff)
+And the learning curves smoothen out a bit.
+
+![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/d78ba136-ca0d-4825-a7a2-4c590144fdff)
 
