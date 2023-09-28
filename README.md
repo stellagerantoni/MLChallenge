@@ -19,3 +19,8 @@ Best lerning rate: 0,001
 bach sizes: (32, 64, 128, and 256) 
 
 best bach size: 128
+
+By updating these parameters we get: Classifier trained, with testing accuracy 0.9008792610751826.
+
+And the learning curves smoothen out a bit![image](https://github.com/stellagerantoni/MLChallenge/assets/105601416/d78ba136-ca0d-4825-a7a2-4c590144fdff)
+
