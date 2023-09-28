@@ -33,6 +33,8 @@ And the learning curves smoothen out a bit.
 
 The model performance drops by more than 15% when we add noise to the test set, wich is something to be expected. 
 
+A way to overcome a broblem like this is to take our model and try and fine tune-it with diffrent kind of noisy images, so it learns these too in training. If able try and make synthetic noisy data (like the Gaussian one) that gives the model the opportunity to learn this too (if not possible to obtain real noisy images.)
+
 
 ## Task 2: Pinhole Cameras
 
