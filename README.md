@@ -13,7 +13,9 @@ At the end when we got the the model 5 with a really good performance at 90% acc
 So we try diffrent learning rates, channels and bach sizes to try and smoothen out the curves (without hurting the accuracy of the model on the testing data.)
 
 learning rates tried: (0,01, 0,001, 0,0001 , 0,00001)
+
 Best lerning rate: 0,001
 
 bach sizes: (32, 64, 128, and 256) 
+
 best bach size: 128
