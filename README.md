@@ -1,5 +1,14 @@
 # MLChallenge
 
+In this task, we will work with traffic sign recognition. A dataset of traffic signs is available here:
+https://benchmark.ini.rub.de/gtsrb_about.html.
+
+a) Create a custom CNN model of your choice, and train it to recognize the traffic signs! Try to
+get an accuracy of 80% or more. You don’t need a very large model for this task. Show also the
+training and test curves (accuracy and loss) per epoch. How did you choose the
+hyperparameters? Why? Please explain your reasoning for the hyperparameter choices by
+plotting intermediate curves (e.g. not just the final one), and explain shortly.
+
 ## First task. Training a cnn model to recognize the traphic lights.
 
 First we import the training and testing data with os library and crop the images based on the imformation from the annotations. We take 20% of the training data and keep it for evalutating our models.
